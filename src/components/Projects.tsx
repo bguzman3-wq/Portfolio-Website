@@ -9,3 +9,18 @@ const projects: Project[] = [
 
     },
 ];
+
+export default function Projects(){
+    return (
+        <section>
+            <h2>Projects</h2>
+            {projects.map((project) => (
+                <div key = {project.id}>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                {project.link && <a href={project.link}>View Project</a>}
+                </div>
+            ))}
+        </section>
+    );
+}
