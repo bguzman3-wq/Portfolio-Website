@@ -14,7 +14,7 @@ export default function Skills(){
         <section> 
             <h2>Skills</h2>
             {skillGroup.map((group) => (
-                <div key={group.category}>
+                <div className="skills-group" key={group.category}>
                     <h3>{group.category}</h3>
                     <ul>
                         {group.items.map((item)=>(
