@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Wasm Test</title>
+  </head>
+  <body>
+    <h1>Check the browser console</h1>
+    <script src="hello.js"></script>
+    <script>
+      Module.onRuntimeInitialized = () => {
+        const result = Module.ccall(
+          "addNumbers",  // name of the C++ function
+          "number",      // return type
+          ["number", "number"], // argument types
+          [7, 5]         // actual arguments
+        );
+        console.log("C++ computed:", result);
+      };
+    </script>
+  </body>
+</html>
