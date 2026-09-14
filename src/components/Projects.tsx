@@ -4,7 +4,7 @@ const projects: Project[] = [
     {
         id: "1",
         title: "Portfolio Website",
-        description: "A personal portfolio website built using React and TypeScript to showcase my projects and skills.",
+        description: "A personal portfolio website built using React and TypeScript to showcase my projects and skills. Also used C++ to create a particle effect background compiled with Emscripten to WebAssembly for compilation.",
         link: "https://github.com/bguzman3-wq/portfolio-website"
     },
     {
