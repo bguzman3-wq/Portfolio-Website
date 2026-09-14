@@ -104,3 +104,35 @@ section {
   gap: 8px;
   font-size: 18px;
 }
+
+.hero {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-frame {
+  position: relative;
+  z-index: 1;
+  background: var(--paper);
+  border: 2px solid var(--blue);
+  padding: 48px 56px;
+  max-width: 480px;
+}
+
+.particle-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+.page-frame {
+  position: relative;
+  z-index: 1;
+  background: var(--paper);
+  border: 2px solid var(--blue);
+  max-width: 800px;
+  margin: 40px auto;
+}
