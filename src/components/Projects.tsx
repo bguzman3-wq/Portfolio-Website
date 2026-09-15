@@ -16,7 +16,7 @@ const projects: Project[] = [
     {
         id: "3",
         title: "AI Hallucination Research Project (In Progress)",
-        description: "Investigate how reliably Large Language Models (LLMs) answer programming questions and identify the types of programming questions that are more likely to produce incorrect, partially correct, or hallucinated responses.",
+        description: "Investigate how reliably Large Language Models answer programming questions and identify the types of programming questions that are more likely to produce incorrect, partially correct, or hallucinated responses.",
         link: "https://github.com/bguzman3-wq/AI-Hallucination"
     }
 ];
