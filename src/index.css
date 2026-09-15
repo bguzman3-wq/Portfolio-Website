@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Source+Sans+3:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 :root {
   --paper: #ffffff;
@@ -9,7 +9,7 @@
   --brass: #A6791F;
 
   --font-heading: 'Audiowide', sans-serif;
-  --font-body: 'Source Sans 3', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
 }
 
 * {
